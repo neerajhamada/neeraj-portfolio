@@ -3,8 +3,15 @@ import { BackgroundBeams } from "./ui/BackgroundBeams";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerate";
 import MagicButton from "./MagicButton";
+import { FlipWords } from "./ui/FlipWords";
 
 const Hero = () => {
+  const words = [
+    "Full Stack Developer",
+    "Software Developer",
+    "Data Science Expert",
+    "Automation Tester",
+  ];
   return (
     <div className="pt-38 pb-25 ">
       <div>
@@ -33,10 +40,12 @@ const Hero = () => {
 
             <p className="text-white-100 text-center md:tracking-wider p-5 mb-4 md:text-lg lg:text-2xl">
               Hi! I&apos;m Neeraj, a
-              <span className="pl-1 bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
-                Full Stack Developer
-              </span>
-              .
+              {/* <span className="pl-1 bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent"> */}
+              <FlipWords
+                className=""
+                words={words}
+              />
+              {/* </span> */}
             </p>
 
             <a href="#about">

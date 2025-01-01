@@ -3,8 +3,6 @@ import { cn } from "../../utils/cn";
 import MagicButton from "../MagicButton";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { useState, useRef } from "react";
-// import Skills from "../Skills";
-// import InfiniteScroll from "../Skills";
 import { InfiniteMovingCards } from "./InfiniteCards";
 import { saveAs } from "file-saver";
 import { skillsList } from "../../data";
@@ -51,12 +49,12 @@ export const BentoGridItem = ({
   const [downloaded, setIsDownloaded] = useState(false);
   const containerRef = useRef<HTMLUListElement>(null);
   const handleCopy = () => {
-    navigator.clipboard.writeText("neerajvs31.off@gmailcom");
+    navigator.clipboard.writeText("neerajvs31.off@gmail.com");
     setCopied(true);
     setTimeout(() => setCopied(false), 3000);
   };
   const handleDownload = () => {
-    const pdfUrl = "../assets/Neeraj_SoftwareDeveloper.pdf";
+    const pdfUrl = "/Neeraj_SoftwareDeveloper.pdf";
     setIsDownloaded(true);
     saveAs(pdfUrl, "neeraj_resume.pdf");
     setTimeout(() => setIsDownloaded(false), 3000);

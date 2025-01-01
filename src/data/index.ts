@@ -90,7 +90,7 @@ export const projects = [
     id: 2,
     title: "Inventory Management Application",
     des: "Built a sales prediction platform to optimize inventory, reduce wastage, and ensure timely delivery of customer-demanded products.",
-    img: "/inventory_management.svg",
+    img: "/inventory.svg",
     iconLists: ["/Python.svg", "/Django.svg", "/chartjs.svg", "/sqlite.svg"],
     link: "",
   },
