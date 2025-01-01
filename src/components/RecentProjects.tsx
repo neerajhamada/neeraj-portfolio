@@ -14,14 +14,19 @@ const RecentProjects = () => {
         {projects.map(({ id, title, des, img, iconLists, link }) => (
           <motion.a
             key={id}
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="h-[25rem] sm:h-[30rem] sm:w-[450px] w-[70vw] bg-white/5 rounded-2xl p-6 border border-white/10 group hover:border-white/20 transition-colors"
+            className={`h-[25rem] sm:h-[30rem] sm:w-[450px] w-[70vw] bg-white/5 rounded-2xl p-6 border border-white/10 group hover:border-white/20 transition-colors ${
+              link ? "cursor-pointer" : ""
+            }`}
             whileHover={{
               y: -5,
               transition: { duration: 0.2 },
             }}
+            {...(link && {
+              as: "a",
+              href: link,
+              target: "_blank",
+              rel: "noopener noreferrer",
+            })}
           >
             <div className="relative w-full h-[30vh] sm:h-[40vh] mb-4 overflow-hidden rounded-xl">
               <div className="absolute inset-0 bg-[#13162d]">

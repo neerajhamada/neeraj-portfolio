@@ -90,9 +90,9 @@ export const projects = [
     id: 2,
     title: "Inventory Management Application",
     des: "Built a sales prediction platform to optimize inventory, reduce wastage, and ensure timely delivery of customer-demanded products.",
-    img: "./src/assets/p2.svg",
+    img: "/inventory_management.svg",
     iconLists: ["/Python.svg", "/Django.svg", "/chartjs.svg", "/sqlite.svg"],
-    link: "/ui.yoom.com",
+    link: "",
   },
   {
     id: 3,
@@ -114,11 +114,13 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/neerajhamada",
   },
-  {
-    id: 2,
-    img: "/insta.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/insta.svg",
+  //   link: ""
+  // },
   {
     id: 3,
     img: "/link.svg",
