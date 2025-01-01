@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { projects } from "../data";
-import svg from "../assets/bg.png";
+import svg from "../../public/bg.png";
 import { motion } from "framer-motion";
 
 const RecentProjects = () => {
