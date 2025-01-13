@@ -38,15 +38,12 @@ const Hero = () => {
               className="text-center text-[40px] md:text-5xl lg:text-6xl"
             />
 
-            <p className="text-white-100 text-center md:tracking-wider p-5 mb-4 md:text-lg lg:text-2xl">
+            <div className="text-white-100 text-center md:tracking-wider p-5 mb-4 md:text-lg lg:text-2xl">
               Hi! I&apos;m Neeraj, a
               {/* <span className="pl-1 bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent"> */}
-              <FlipWords
-                className=""
-                words={words}
-              />
+              <FlipWords className="" words={words} />
               {/* </span> */}
-            </p>
+            </div>
 
             <a href="#about">
               <MagicButton

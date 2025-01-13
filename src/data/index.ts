@@ -4,7 +4,6 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Contact", link: "#contact" },
 ];
-
 export const gridItems = [
   {
     id: 1,
@@ -15,7 +14,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/programming.svg",
+    img: "",
     spareImg: "",
   },
   {
@@ -78,11 +77,31 @@ export const projects = [
     des: "Enhace your coding skills by surfing on the blogging platform tailored for developers, offering practical code snippets with clear explanations.",
     img: "/code-blog.png",
     iconLists: [
-      "/re.svg",
-      "/next.svg",
-      "/JavaScript.svg",
-      "/CSS3.svg",
-      "/tail.svg",
+      {
+        id: 1,
+        name: "React.JS",
+        image: "/re.svg",
+      },
+      {
+        id: 2,
+        name: "Next.JS",
+        image: "/next.svg",
+      },
+      {
+        id: 3,
+        name: "Javascript",
+        image: "/JavaScript.svg",
+      },
+      {
+        id: 4,
+        name: "CSS",
+        image: "/CSS3.svg",
+      },
+      {
+        id: 5,
+        name: "Tailwind CSS",
+        image: "/tail.svg",
+      },
     ],
     link: "https://code-blog-neeraj.vercel.app/",
   },
@@ -91,7 +110,28 @@ export const projects = [
     title: "Inventory Management Application",
     des: "Built a sales prediction platform to optimize inventory, reduce wastage, and ensure timely delivery of customer-demanded products.",
     img: "/inventory.svg",
-    iconLists: ["/Python.svg", "/Django.svg", "/chartjs.svg", "/sqlite.svg"],
+    iconLists: [
+      {
+        id: 1,
+        name: "Python",
+        image: "/Python.svg",
+      },
+      {
+        id: 2,
+        name: "Django",
+        image: "/Django.svg",
+      },
+      {
+        id: 3,
+        name: "Chart.JS",
+        image: "/chartjs.svg",
+      },
+      {
+        id: 4,
+        name: "SQLite",
+        image: "/sqlite.svg",
+      },
+    ],
     link: "",
   },
   {
@@ -100,11 +140,31 @@ export const projects = [
     des: "AI-powered chatbot that improved query resolution efficiency by 30% and enabled 24/7 self-service support.",
     img: "/chatbot.svg",
     iconLists: [
-      "/Python.svg",
-      "/Flask.svg",
-      "/gemini-color.svg",
-      "/langchain.svg",
-      "/sqlite.svg",
+      {
+        id: 1,
+        name: "Python",
+        image: "/Python.svg",
+      },
+      {
+        id: 2,
+        name: "Flask",
+        image: "/Flask.svg",
+      },
+      {
+        id: 3,
+        name: "Gemini Pro",
+        image: "/gemini-color.svg",
+      },
+      {
+        id: 4,
+        name: "Langchain",
+        image: "/langchain.svg",
+      },
+      {
+        id: 5,
+        name: "SQLite",
+        image: "/sqlite.svg",
+      },
     ],
     link: "",
   },

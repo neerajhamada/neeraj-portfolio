@@ -139,13 +139,13 @@ export const BentoGridItem = ({
             <div className="flex text-white gap-10 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <InfiniteMovingCards
                 items={skillsList[0]}
-                speed="slow"
+                speed="normal"
                 direction="right"
                 ref={containerRef}
               />
               <InfiniteMovingCards
                 items={skillsList[1]}
-                speed="slow"
+                speed="normal"
                 direction="left"
                 ref={containerRef}
               />
