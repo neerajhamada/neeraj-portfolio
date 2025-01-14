@@ -93,7 +93,9 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              className={"object-cover object-center w-full h-full"}
+              className={`object-cover object-center w-full h-full ${
+                id === 1 && "hidden lg:block"
+              }`}
             />
           )}
         </div>

@@ -12,10 +12,10 @@ export const gridItems = [
       "QA Pro with 3+ years of experience crafting seamless web apps and diving deep into Python for Data Science. \
       From testing to automation, I thrive on turning complex problems into smooth, high-quality solutions",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
+    imgClassName: "w-full h-full bg-gradient-to-r from-black/40 to-transparent",
     titleClassName: "justify-end",
-    img: "",
-    spareImg: "",
+    img: "/grid.svg",
+    spareImg: "/developer.svg",
   },
   {
     id: 2,
